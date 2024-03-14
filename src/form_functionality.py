@@ -1,7 +1,7 @@
 class Form:
     def enter_name(self, name: str):
-        if len(name) > 30:
-            return 'name has more than 30 chars'
+        if len(name) >20:
+            return 'name has more than 20 chars'
         else:
             if len(name) < 3:
                 return 'Invalid value'
